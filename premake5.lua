@@ -26,7 +26,7 @@ project "yaml-cpp"
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
-		staticruntime "off"
+		staticruntime "On"
 
 	filter "system:linux"
 		pic "On"
